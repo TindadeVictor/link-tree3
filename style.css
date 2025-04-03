@@ -11,18 +11,64 @@
      --blue: #ADD8E6; 
     --LightSkyBlue: #87CEFA;
     --white: #FFF;
-}
+    --DeepSkyBlue: #00BFFF;
+    --Blue: #0000FF;
 
 
 body {
     background-color: var(--blue);
-    border: 1px solid DodgerBlue
-
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div {
     background-color: var(--LightSkyBlue);
     color: var(--white);
     width: 350px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+img {
+    width: 88px
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+strong {
+    color: var(--DeepSkyBlue);
+}
+
+p {
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    background-color: var(--blue);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+
+a:hover {
+    background-color: var(--LightSkyBlue);
+    color: var(--Blue);
+    transition: 0.4s;
+    
 }
