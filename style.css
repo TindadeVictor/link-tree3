@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+:root {
+     --blue: #ADD8E6; 
+    --LightSkyBlue: #87CEFA;
+    --white: #FFF;
+}
+
+
+body {
+    background-color: var(--blue);
+    border: 1px solid DodgerBlue
+
+    height: 100vh;
+}
+
+div {
+    background-color: var(--LightSkyBlue);
+    color: var(--white);
+    width: 350px;
+}
