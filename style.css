@@ -7,15 +7,15 @@
     font-family: "inter", sans-serif;
 }
 
-:root {
+:root{
      --blue: #ADD8E6; 
     --LightSkyBlue: #87CEFA;
     --white: #FFF;
     --DeepSkyBlue: #00BFFF;
     --Blue: #0000FF;
+}
 
-
-body {
+body{
     background-color: var(--blue);
     height: 100vh;
     display: flex;
@@ -23,7 +23,7 @@ body {
     align-items: center;
 }
 
-div {
+div{
     background-color: var(--LightSkyBlue);
     color: var(--white);
     width: 350px;
@@ -31,18 +31,18 @@ div {
     border-radius: 12px;
     padding: 40px;
 }
-img {
+img{
     width: 88px;
     border-radius: 50%;
     margin-bottom: 24px;
 }
 
-h1 {
+h1{
     font-size: 24px;
     font-weight: 600;
 }
 
-strong {
+strong{
     color: var(--DeepSkyBlue);
 }
 
@@ -51,11 +51,11 @@ p {
     font-size: 14px;
 }
 
-ul, li {
+ul, li{
     list-style: none;
 }
 
-a {
+a{
     display: block;
     background-color: var(--blue);
     margin-bottom: 16px;
@@ -65,10 +65,10 @@ a {
     font-size: 14px;
     font-weight: 700;
     border-radius: 8px;
+}
 
-a:hover {
+a:hover{
     background-color: var(--LightSkyBlue);
     color: var(--Blue);
     transition: 0.4s;
-    
 }
